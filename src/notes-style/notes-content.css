@@ -1,0 +1,97 @@
+.notes-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.format-text{
+    /* display: flex; */
+
+    position: ;
+    margin-top: 20px;
+    margin-left: 5em;
+}
+.icon-format{
+    font-weight: 400;
+    margin-right: 2.5px;
+    cursor: pointer;
+}
+.note-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    transform: translate(-50%,-50%);
+}
+.editor{
+    min-height: 83vh;
+    max-height: 83vh;
+    background-color: var(--border-color);
+    color: var(--text-color-secondary);
+    padding: 10px 2em 40px 5em;
+    overflow-y: scroll;
+
+}
+.editor:focus{
+    outline: none;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    
+}
+.ql-container{
+    min-height: 83vh;
+    max-height: 83vh;
+    background-color: var(--border-color);
+    color: var(--text-color-secondary);
+    padding: 10px 2em 40px 5em;
+    /* overflow-y: scroll; */
+}
+.ql-editor{
+    /* overflow-y: hidden; */
+    height: 80vh !important;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+    border-left: 1px solid #cccccc;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.tag-input{
+    display: flex;
+    align-items: center;
+}
+.tag-input > div{
+    margin: 0px 10px;
+}
+.tags-list{
+    display: flex;
+    margin-right: 50px;
+}
+.tag-item{
+    margin: 0 5px;
+    font-size: 12px;
+    background-color: #eeeeee;
+    color: black;
+    border-radius: 50px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+
+}
+.close{
+    /* display: none; */
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.close:hover{
+    display: block;
+}
+
+/* ???????????????????? */
+.highlight{
+    background-color: yellow;
+    color: black;
+}

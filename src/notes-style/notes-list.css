@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+}
+.notes-list * {
+    box-sizing: border-box;
+    
+}
+.notes-list{
+    height: 100%;
+    padding-top: 20px;
+    background-color: #f8f8f8;
+    /* border-right: 0.5px solid #d7d7d7d7; */
+    overflow-x: hidden;
+    background-color: var(--background-color);
+    color: var(--text-color-secondary);
+
+}
+
+.notes-list>ul{
+    list-style: none;
+    margin: 0;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.notes-list ul li h3{
+    margin: 0 !important;
+    cursor: pointer;
+}
+.notes-list ul li p{
+    margin: 0 !important;
+    cursor: pointer;
+}
+.notes-list ul.active {
+    /* background-color: #eeeeee; */
+    background-color: var(--active-color);
+
+
+}

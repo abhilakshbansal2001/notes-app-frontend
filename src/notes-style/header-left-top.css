@@ -1,0 +1,28 @@
+.header-left-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0 !important;
+    padding-left: 15px;
+    background-color: #f4f4f4;
+    border-bottom: 0.5px solid #d7d7d7d7;
+    border-right: 0.5px solid #d7d7d7d7;
+    background-color: var(--background-color);
+
+
+    
+}
+.header-left-container-search{
+    width: 90%;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 50px;
+    border:1px solid #000000;
+}
+.header-left-container-search:focus{
+    outline: none;
+}
+.hamburger,.addIcon{
+    color: var(--text-color-primary) !important;
+    cursor: pointer;
+}

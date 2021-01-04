@@ -1,0 +1,29 @@
+body.dark{
+    --text-color-primary : #bbe1fa;
+    --text-color-secondary : #ffffff;
+    --active-color: #3282b8;
+    --background-color: #0f4c75;
+    --border-color: #1b262c;
+}
+body.light{
+    --text-color-primary : #000000;
+    --text-color-secondary : #000000;
+    --active-color: #eeeeee;
+    --background-color: #ffffff;
+    --border-color: #f7f7f7;
+}
+.root{
+    /* opacity: 0.6; */
+    position: relative;
+}
+.root.opac::after{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.48);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    
+}

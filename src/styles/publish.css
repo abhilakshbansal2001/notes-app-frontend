@@ -1,0 +1,15 @@
+ 
+
+.publish-note{
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-top: 4rem;
+    font-size: 20px;
+    color: #000000;
+}
+.publish-note p{
+    font-weight: 400 !important;
+    font-size: medium;
+}
